@@ -92,3 +92,10 @@ When a user clicks on the Filter Good Dogs button, two things should happen:
 - If the button now says "ON" (meaning the filter is on), then the Dog Bar
   should only show pups whose isGoodDog attribute is true. If the filter is
   off, the Dog Bar should show all pups (like normal).
+
+
+      app
+        |_header__
+        |         |_filterbutton
+        |         |_dognamecontainer
+        |_doggo
